@@ -1,8 +1,9 @@
-#include<studio.h>
+#include<stdio.h>
 /**
- * main - Prints out a string to stdout
- * Return: 0 if success
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
