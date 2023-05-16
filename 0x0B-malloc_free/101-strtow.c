@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include "main.h"
 
@@ -37,7 +38,7 @@ int count_word(char *s)
 char **strtow(char *str)
 {
 	char **matrix, *tmp;
-	int i, k = 0, ten = 0, words, c = 0, start, end;
+	int i, k = 0, len = 0, words, c = 0, start, end;
 
 	while (*(str + len))
 		len++;
